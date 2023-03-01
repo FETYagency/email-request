@@ -1,0 +1,18 @@
+:root{
+    --FS-title: 52px;
+    --FS-body: 18px;
+
+    --LH-title: 62px;
+    --Lh-body: 28px;
+
+
+    --CLR-green: hsl(157, 74%, 62%);
+    --CLR-lightGreen: hsl(157, 100%, 82%);
+    --CLR-blackGrey:#2C344B;
+    --CLR-blackBlue:#121725;
+    --CLR-paleBlue:#C2CBE5;
+    --CLR-lightGrey:#5A668A;
+    --CLR-white:#fff;
+
+    font-size: 16px;
+}
