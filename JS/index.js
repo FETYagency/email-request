@@ -1,10 +1,10 @@
-const msg = document.querySelector('.errorMesage');
+const msg = document.querySelector('.errorMessage');
 const btn = document.querySelector('button');
 const input = document.querySelector('input[type=email]');
 
 function validateEmail(email) {
     if (email.indexOf("@gmail.com") === -1) {
-      return "Invalid email address. Please use a Gmail account.";
+      return "Oops! Please check your email";
     } else {
       return null;
     }
@@ -16,7 +16,3 @@ function validateEmail(email) {
             msg.textContent= error;
         }
     });
-
-
-
-

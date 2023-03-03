@@ -3,63 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/index.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Pod request access landing page</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <!-- <title>Frontend Mentor | Pod request access landing page</title> -->
 </head>
 <body>
+
   <main>
 
 
-      <img src="assets/desktop/logo.svg" alt="#" class="logo">
-
-
-      <picture class="hero">
-        <source media="(min-width:1000px)" srcset="assets/desktop/image-host.jpg">       
-        <source media="(min-width:650px)" srcset="assets/tablet/image-host.jpg">
-        <img class="hero__img" src="assets/mobile/image-host.jpg" alt="">
-      </picture>
 
 
 
+    
+
+    <picture class="hero">
+      <source media="(min-width:1000px)" srcset="assets/desktop/image-host.jpg">
+      <source media="(min-width:500px)" srcset="assets/tablet/image-host.jpg">
+      <img class="hero__img" src="assets/mobile/image-host.jpg" alt="">
+    </picture>
 
 
-      <div class="content">
+    <section class="content">
 
-        <h1 class="content__header"> <span>Publish your podcasts</span> everywhere.</h1>
-        <p class="content__body">
+      <img src="assets/desktop/logo.svg" alt="" class="logo">
+
+
+      <article class="content__text">
+
+        <h1 class="text__header"> <span>Publish your podcasts</span> <br> everywhere.</h1>
+        <p class="text__body">
           Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-          Apple Podcasts, Google Podcasts, Pocket Casts and more!        
+          Apple Podcasts, Google Podcasts, Pocket Casts and more!
         </p>
+
+      </article>
+
+
+      <div class="CTA">
+
         
+
         <form action="">
-          <div class="inputs">
-            <input type="email" placeholder="Email address" required autofocus>
-            <button>Request Access</button>
-          </div>
-          <p class="errorMesage"></p>
-          <div class="collaborators">
-            <img src="assets/desktop/spotify.svg" alt="">
-            <img src="assets/desktop/apple-podcast.svg" alt="">
-            <img src="assets/desktop/google-podcasts.svg" alt="">
-            <img src="assets/desktop/pocket-casts.svg" alt="">
-          </div>
+          <input type="email" required placeholder="Email Address">
+          <button>Request Accesss</button>
         </form>
+
+        <p class="errorMessage" style="color: brown;"></p>
+
+        <div class="collaborators">
+          <img src="assets/desktop/spotify.svg" alt="">
+          <img src="assets/desktop/apple-podcast.svg" alt="">
+          <img src="assets/desktop/google-podcasts.svg" alt="">
+          <img src="assets/desktop/pocket-casts.svg" alt="">
+        </div>
+
 
 
       </div>
 
 
 
-      <img class="dots__pattern" src="assets/desktop/bg-pattern-dots.svg" alt="">
+    </section>
+
+    <img src="assets/desktop/bg-pattern-dots.svg" alt="" class="dots__pattern">
 
 
+  </main>
+  
 
-    </main>
-
-
-
-    <script src="Java-srcipt/index.js"></script>
-  </body>
+  <script src="JS/index.js"></script>
+</body>
 </html>
