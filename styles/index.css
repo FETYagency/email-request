@@ -106,7 +106,8 @@ button{
     background-color: var(--CLR-green);
     border: none;
     border-radius: 2rem;
-    padding-block: .83rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
     font-family: "myFont";
     font-weight: 600;
     transition: all .3s ease;
