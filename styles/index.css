@@ -81,7 +81,7 @@ main{
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    max-width: 350px;
+    max-width: 21.875rem;
 }
 form{
     display: flex;
@@ -93,7 +93,7 @@ form{
 input[type="email"]{
     background-color: var(--CLR-blackGrey);
     border: none;
-    border-radius: 30px;
+    border-radius: 2rem;
     padding-block: .83rem;
     padding-inline-start: 1rem;
     font-weight: 700;
@@ -105,7 +105,7 @@ input[type="email"]:focus{
 button{
     background-color: var(--CLR-green);
     border: none;
-    border-radius: 30px;
+    border-radius: 2rem;
     padding-block: .83rem;
     font-family: "myFont";
     font-weight: 600;
@@ -146,7 +146,7 @@ button:active{
     main{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(6, 105px);
+        grid-template-rows: repeat(6, 6.56rem);
         position: relative;
     }
 
@@ -190,7 +190,7 @@ button:active{
         font-size: var(--FS-body);
         line-height: var(--Lh-body); 
         color: var(--CLR-paleBlue);
-        width: min(350px, 100%);
+        width: min(21.875rem, 100%);
     }
     .CTA{
         gap: 1rem;
@@ -200,8 +200,8 @@ button:active{
     form{
         flex-flow: row;
         background-color: var(--CLR-blackGrey);
-        border-radius: 30px;
-        max-width: 370px;
+        border-radius: 2rem;
+        max-width: 23.125rem;
         order: 1;
         padding-inline: .5rem;
         padding-block: .5rem;
@@ -227,7 +227,7 @@ button:active{
     .dots__pattern{
         display: inline-block;
         position: absolute;
-        bottom: -190px;
+        bottom: -11.875rem;
         left: 0;    
     }
 
@@ -237,7 +237,7 @@ button:active{
 /* for desktop */
 
 
-@media(min-width:1000px){
+@media(min-width:62.5rem){
     body{
         place-content: center end;
         overflow: hidden;
@@ -245,7 +245,7 @@ button:active{
 
     }
     main{
-        grid-template-rows: repeat(6, 100px);
+        grid-template-rows: repeat(6, 6.25rem);
     }
     .hero__img{
         width:100%;
@@ -266,7 +266,7 @@ button:active{
 
     }
     .text__body{
-        width: min(400px, 100%);
+        width: min(21.875rem, 100%);
     }
 
     .collaborators{
@@ -274,7 +274,7 @@ button:active{
         margin-block-start: 1rem;
     }
     .collaborators>img{
-        width: clamp(30px, 7vw, 120px);
+        width: clamp(2rem, 7vw, 7.5rem);
         mix-blend-mode:difference;
 
     }
@@ -283,6 +283,6 @@ button:active{
         position: absolute;
         right: 0;
         left: auto;
-        bottom: -50px;
+        bottom: -3.33rem;
     }
 }
